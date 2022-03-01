@@ -20,3 +20,19 @@ YOLOv4 detection on COCO dataset using OpenCV DNN module, compiled with CUDA.
 foo@bar:~$ sudo chmod +x install_dependencies_ubuntu.sh    # make the script executable
 foo@bar:~$ sudo ./install_dependencies_ubuntu.sh           # run the script to install the dependencies of the application
 ```
+
+### Guide for using the Face Mask Detector application:
+
+1. Execute the Python Script from command line like this:
+```console
+foo@bar:~$ python .\yolov4_detection.py
+```
+or
+```console
+foo@bar:~$ python3 .\yolov4_detection.py
+```
+
+
+### Datasets and weights used by the Face Mask Detector application:
+- The dataset used for training this model is the one from Kaggle: https://www.kaggle.com/alexandralorenzo/maskdetection
+- The trained YOLOv4 weights, together with the configuration file can be found at this link: https://mega.nz/folder/SwADAYzR#Xv9Wz6wjW4iYpfx4W_0gZg
