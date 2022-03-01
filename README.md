@@ -29,7 +29,7 @@ foo@bar:~$ python .\yolov4_detection.py
 ```
 or
 ```console
-foo@bar:~$ python3 ./yolov4_detection.py
+foo@bar:~$ python3 .\yolov4_detection.py
 ```
 
 
